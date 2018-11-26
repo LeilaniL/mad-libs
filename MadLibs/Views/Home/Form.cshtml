@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Create a Mad Lib Story!</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <h1>Fill in the blanks to create your story.</h1>
+    <form action="/madlibs" method="post">
+     <label for="student">student's name</label>
+     <input id="student" name="student" type="text">
+     <label for="station">station's name</label>
+     <input id="station" name="station" type="text">
+     <label for="pair">Noun</label>
+     <input id="pair" name="pair" type="text">
+     <label for="verb">Verb</label>
+     <input id="verb" name="verb" type="text">
+     <label for="adjective">Adjective</label>
+     <input id="adjective" name="adjective" type="text">
+     <label for="secondAdjective">Another Adjective</label>
+     <input id="secondAdjective" name="secondAdjective" type="text">
+     <button type="submit">Go!</button>
+    </form>
+  </body>
+</html>
