@@ -67,4 +67,53 @@ namespace MadLibs.Models
       _secondAdjective = newSecondAdjective;
     }
   }
+  //Second Story
+    public class SecondMadLib
+  {
+    private string _dogName;
+    private string _activity;
+  
+    private string _adjective;
+    private string _food;
+    
+  
+    public string GetDog()
+    {
+      return _dogName;
+    }
+
+    public void SetDog(string newDog)
+    {
+      _dogName = newDog;
+    }
+    public string GetActivity()
+    {
+      return _activity;
+    }
+
+    public void SetActivity(string newActivity)
+    {
+      _activity = newActivity;
+    }
+
+     
+    public string GetAdjective()
+    {
+      return _adjective;
+    }
+
+    public void SetAdjective(string newAdjective)
+    {
+      _adjective = newAdjective;
+    }
+    public string GetFood()
+    {
+      return _food;
+    }
+
+    public void SetFood(string newFood)
+    {
+      _food = newFood;
+    }
+  }
 }
